@@ -35,6 +35,7 @@ opt_in_rules:
   - implicitly_unwrapped_optional
   - joined_default_parameter
   - last_where
+  - legacy_multiple
   - legacy_random
   - let_var_whitespace
   - literal_expression_end_indentation
@@ -83,6 +84,7 @@ opt_in_rules:
   - type_contents_order
   - unavailable_function
   - unneeded_parentheses_in_closure_argument
+  - unowned_variable_capture
   - untyped_error_in_catch
   - unused_import
   - unused_private_declaration
@@ -108,6 +110,7 @@ disabled_rules:
   # - deployment_target
   # - discarded_notification_center_observer
   # - discouraged_direct_init
+  # - duplicate_enum_cases
   # - duplicate_imports
   # - dynamic_inline
   # - empty_enum_arguments
@@ -174,6 +177,5 @@ disabled_rules:
   # - vertical_parameter_alignment
   # - vertical_whitespace
   # - void_return
-  # - weak_computed_property
   # - weak_delegate
   # - xctfail_message
