@@ -14,6 +14,7 @@ opt_in_rules:
   - force_unwrapping
   - implicit_return
   - implicitly_unwrapped_optional
+  - let_var_whitespace
   - multiline_parameters
   - nimble_operator
   - no_extension_access_modifier
@@ -25,11 +26,15 @@ opt_in_rules:
   - prohibited_super_call
   - redundant_nil_coalescing
   - sorted_imports
+  - strict_fileprivate
   - switch_case_on_newline
+  - trailing_closure
+  - unneeded_parentheses_in_closure_argument
   - vertical_parameter_alignment_on_call
 
 
 disabled_rules:
+  # - block_based_kvo
   # - class_delegate_protocol
   # - closing_brace
   # - closure_parameter_position
@@ -40,6 +45,7 @@ disabled_rules:
   # - custom_rules
   # - cyclomatic_complexity
   # - discarded_notification_center_observer
+  # - discouraged_direct_init
   # - dynamic_inline
   # - empty_enum_arguments
   # - empty_parameters
@@ -65,6 +71,7 @@ disabled_rules:
   # - notification_center_detachment
   # - opening_brace
   # - operator_whitespace
+  # - private_over_fileprivate
   # - private_unit_test
   # - protocol_property_accessors_order
   # - redundant_discardable_let
