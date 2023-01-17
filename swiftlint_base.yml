@@ -2,8 +2,6 @@ opt_in_rules:
   - anyobject_protocol
   - array_init
   - attributes
-  - balanced_xctest_lifecycle
-  - capture_variable
   - closure_body_length
   - closure_end_indentation
   - closure_spacing
@@ -14,8 +12,6 @@ opt_in_rules:
   - contains_over_first_not_nil
   - contains_over_range_nil_comparison
   - convenience_type
-  - discarded_notification_center_observer
-  - discouraged_assert
   - discouraged_object_literal
   - discouraged_optional_boolean
   - discouraged_optional_collection
@@ -50,7 +46,6 @@ opt_in_rules:
   - joined_default_parameter
   - last_where
   - legacy_multiple
-  - legacy_objc_type
   - legacy_random
   - let_var_whitespace
   - literal_expression_end_indentation
@@ -81,7 +76,6 @@ opt_in_rules:
   - prefixed_toplevel_constant
   - private_action
   - private_outlet
-  - private_subject
   - prohibited_interface_builder
   - prohibited_super_call
   - quick_discouraged_call
@@ -132,6 +126,7 @@ disabled_rules:
   # - custom_rules
   # - cyclomatic_complexity
   # - deployment_target
+  # - discarded_notification_center_observer
   # - discouraged_direct_init
   # - duplicate_enum_cases
   # - duplicate_imports
