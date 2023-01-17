@@ -1,0 +1,32 @@
+name: Update Base Rules
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: fetch tags
+      run: |
+        git fetch --tags origin
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - name: update base
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        python scripts/update.py
+        rm -rf SwiftLint
+    - name: push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        tags: true
+        force: true
