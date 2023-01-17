@@ -38,6 +38,7 @@ opt_in_rules:
   - flatmap_over_map_reduce
   - force_unwrapping
   - function_default_parameter_at_end
+  - ibinspectable_in_extension
   - identical_operands
   - implicit_return
   - implicitly_unwrapped_optional
@@ -70,6 +71,7 @@ opt_in_rules:
   - override_in_extension
   - pattern_matching_keywords
   - prefer_self_type_over_type_of_self
+  - prefer_zero_over_explicit_init
   - prefixed_toplevel_constant
   - private_action
   - private_outlet
@@ -116,6 +118,7 @@ disabled_rules:
   # - colon
   # - comma
   # - compiler_protocol_init
+  # - computed_accessors_order
   # - control_statement
   # - custom_rules
   # - cyclomatic_complexity
@@ -181,6 +184,7 @@ disabled_rules:
   # - type_body_length
   # - type_name
   # - unneeded_break_in_switch
+  # - unneeded_notification_center_removal
   # - unused_capture_list
   # - unused_closure_parameter
   # - unused_control_flow_label
