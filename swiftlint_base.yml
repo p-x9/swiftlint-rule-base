@@ -19,6 +19,7 @@ opt_in_rules:
   - empty_count
   - empty_string
   - empty_xctest_method
+  - enum_case_associated_values_count
   - expiring_todo
   - explicit_acl
   - explicit_enum_raw_value
@@ -31,6 +32,7 @@ opt_in_rules:
   - fatal_error_message
   - file_header
   - file_name
+  - file_name_no_space
   - file_types_order
   - first_where
   - flatmap_over_map_reduce
@@ -62,9 +64,11 @@ opt_in_rules:
   - number_separator
   - object_literal
   - operator_usage_whitespace
+  - optional_enum_case_matching
   - overridden_super_call
   - override_in_extension
   - pattern_matching_keywords
+  - prefer_self_type_over_type_of_self
   - prefixed_toplevel_constant
   - private_action
   - private_outlet
