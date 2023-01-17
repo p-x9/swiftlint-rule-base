@@ -213,5 +213,6 @@ disabled_rules:
   # - valid_ibinspectable
   # - vertical_parameter_alignment
   # - vertical_whitespace
+  # - void_function_in_ternary
   # - void_return
   # - xctfail_message
