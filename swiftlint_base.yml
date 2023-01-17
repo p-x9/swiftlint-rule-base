@@ -40,8 +40,11 @@ opt_in_rules:
   - missing_docs
   - modifier_order
   - multiline_arguments
+  - multiline_arguments_brackets
   - multiline_function_chains
+  - multiline_literal_brackets
   - multiline_parameters
+  - multiline_parameters_brackets
   - nimble_operator
   - no_extension_access_modifier
   - no_grouping_extension
@@ -76,6 +79,7 @@ opt_in_rules:
   - unused_import
   - unused_private_declaration
   - vertical_parameter_alignment_on_call
+  - vertical_whitespace_between_cases
   - yoda_condition
 
 
@@ -125,6 +129,7 @@ disabled_rules:
   # - private_unit_test
   # - protocol_property_accessors_order
   # - redundant_discardable_let
+  # - redundant_objc_attribute
   # - redundant_optional_initialization
   # - redundant_set_access_control
   # - redundant_string_enum_value
