@@ -33,6 +33,7 @@ opt_in_rules:
   - implicit_return
   - implicitly_unwrapped_optional
   - joined_default_parameter
+  - last_where
   - legacy_random
   - let_var_whitespace
   - literal_expression_end_indentation
@@ -82,6 +83,7 @@ opt_in_rules:
   - vertical_whitespace_between_cases
   - vertical_whitespace_closing_braces
   - vertical_whitespace_opening_braces
+  - xct_specific_matcher
   - yoda_condition
 
 
@@ -152,6 +154,7 @@ disabled_rules:
   # - type_name
   # - unneeded_break_in_switch
   # - unused_closure_parameter
+  # - unused_control_flow_label
   # - unused_enumerated
   # - unused_optional_binding
   # - valid_ibinspectable
