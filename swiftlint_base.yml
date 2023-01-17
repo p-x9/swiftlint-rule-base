@@ -80,6 +80,8 @@ opt_in_rules:
   - unused_private_declaration
   - vertical_parameter_alignment_on_call
   - vertical_whitespace_between_cases
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
   - yoda_condition
 
 
@@ -116,6 +118,7 @@ disabled_rules:
   # - legacy_cggeometry_functions
   # - legacy_constant
   # - legacy_constructor
+  # - legacy_hashing
   # - legacy_nsgeometry_functions
   # - line_length
   # - mark
