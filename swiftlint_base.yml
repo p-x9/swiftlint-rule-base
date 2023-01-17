@@ -66,6 +66,7 @@ opt_in_rules:
   - quick_discouraged_pending_test
   - redundant_nil_coalescing
   - redundant_type_annotation
+  - required_deinit
   - required_enum_case
   - single_test_class
   - sorted_first_last
@@ -100,6 +101,7 @@ disabled_rules:
   # - control_statement
   # - custom_rules
   # - cyclomatic_complexity
+  # - deployment_target
   # - discarded_notification_center_observer
   # - discouraged_direct_init
   # - duplicate_imports
@@ -165,5 +167,6 @@ disabled_rules:
   # - vertical_parameter_alignment
   # - vertical_whitespace
   # - void_return
+  # - weak_computed_property
   # - weak_delegate
   # - xctfail_message
