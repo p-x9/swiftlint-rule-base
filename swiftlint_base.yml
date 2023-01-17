@@ -6,6 +6,7 @@ opt_in_rules:
   - conditional_returns_on_newline
   - contains_over_first_not_nil
   - discouraged_object_literal
+  - discouraged_optional_boolean
   - empty_count
   - explicit_acl
   - explicit_enum_raw_value
