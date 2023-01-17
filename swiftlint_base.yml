@@ -12,6 +12,7 @@ opt_in_rules:
   - contains_over_first_not_nil
   - contains_over_range_nil_comparison
   - convenience_type
+  - discouraged_assert
   - discouraged_object_literal
   - discouraged_optional_boolean
   - discouraged_optional_collection
