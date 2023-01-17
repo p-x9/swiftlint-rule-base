@@ -77,6 +77,7 @@ opt_in_rules:
   - prefixed_toplevel_constant
   - private_action
   - private_outlet
+  - private_subject
   - prohibited_interface_builder
   - prohibited_super_call
   - quick_discouraged_call
