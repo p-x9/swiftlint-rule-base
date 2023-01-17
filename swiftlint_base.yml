@@ -19,6 +19,7 @@ opt_in_rules:
   - empty_count
   - empty_string
   - empty_xctest_method
+  - expiring_todo
   - explicit_acl
   - explicit_enum_raw_value
   - explicit_init
