@@ -5,7 +5,9 @@ opt_in_rules:
   - closure_spacing
   - conditional_returns_on_newline
   - contains_over_first_not_nil
+  - discouraged_object_literal
   - empty_count
+  - explicit_acl
   - explicit_enum_raw_value
   - explicit_init
   - explicit_top_level_acl
@@ -31,12 +33,15 @@ opt_in_rules:
   - overridden_super_call
   - override_in_extension
   - pattern_matching_keywords
+  - prefixed_toplevel_constant
+  - private_action
   - private_outlet
   - prohibited_super_call
   - quick_discouraged_call
   - quick_discouraged_focused_test
   - quick_discouraged_pending_test
   - redundant_nil_coalescing
+  - required_enum_case
   - single_test_class
   - sorted_first_last
   - sorted_imports
@@ -45,6 +50,7 @@ opt_in_rules:
   - trailing_closure
   - unneeded_parentheses_in_closure_argument
   - vertical_parameter_alignment_on_call
+  - yoda_condition
 
 
 disabled_rules:
