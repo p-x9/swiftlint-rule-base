@@ -61,6 +61,7 @@ opt_in_rules:
   - nimble_operator
   - no_extension_access_modifier
   - no_grouping_extension
+  - non_private_xctest_member
   - nslocalizedstring_key
   - nslocalizedstring_require_bundle
   - number_separator
