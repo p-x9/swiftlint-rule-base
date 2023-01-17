@@ -41,6 +41,7 @@ opt_in_rules:
   - identical_operands
   - implicit_return
   - implicitly_unwrapped_optional
+  - indentation_width
   - joined_default_parameter
   - last_where
   - legacy_multiple
@@ -155,6 +156,7 @@ disabled_rules:
   # - nsobject_prefer_isequal
   # - opening_brace
   # - operator_whitespace
+  # - orphaned_doc_comment
   # - private_over_fileprivate
   # - private_unit_test
   # - protocol_property_accessors_order
