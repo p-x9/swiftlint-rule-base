@@ -48,8 +48,5 @@ index = swiftlint_tags.index(own_latest_tag)
 
 
 for tag in swiftlint_tags[index+1:]:
-    if "rc" in tag:
-        print(f"skip: {tag}")
-    else:
-        print(f"new tag: {tag}")
-        subprocess.call(["./scripts/generate_base.sh", tag])
+    print(f"new tag: {tag}")
+    subprocess.call(["./scripts/generate_base.sh", tag])
