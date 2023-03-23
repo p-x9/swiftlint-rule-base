@@ -13,6 +13,8 @@ def get_swiftlint_tags() -> list[str]:
     tags: str = tags_cp.stdout
     tags = tags.split("\n")
     tags = list(map(lambda tag: tag[1:-1], tags))
+    tags = tags[:-1]
+    tags.reverse()
 
     return tags[:-1]
 
@@ -26,10 +28,11 @@ def get_tags(repo_root: str) -> list[str]:
         text=True)
     tags: str = tags_cp.stdout
     tags = tags.split("\n")
+    tags = tags[:-1]
 
     os.chdir(current_dir)
 
-    return tags[:-1]
+    return tags
 
 
 os.chdir(repo_path)
