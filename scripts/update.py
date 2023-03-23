@@ -3,26 +3,26 @@ import subprocess
 
 repo_path = os.path.dirname(__file__) + "/.."
 
-swiftlint_path = f"{repo_path}/SwiftLint"
 
+def get_swiftlint_tags() -> list[str]:
+    tags_cp = subprocess.run(
+        ["curl https://api.github.com/repos/realm/swiftlint/releases | jq .[].tag_name"],
+        capture_output=True,
+        text=True,
+        shell=True)
+    tags: str = tags_cp.stdout
+    tags = tags.split("\n")
+    tags = list(map(lambda tag: tag[1:-1], tags))
 
-def update_swiftlint():
-    current_dir = os.getcwd()
-
-    if os.path.exists(swiftlint_path):
-        os.chdir(swiftlint_path)
-        subprocess.run(["git", "pull"])
-        os.chdir(current_dir)
-    else:
-        subprocess.run(["git", "clone", "https://github.com/realm/SwiftLint.git"])
-
+    return tags[:-1]
 
 def get_tags(repo_root: str) -> list[str]:
     current_dir = os.getcwd()
     os.chdir(repo_root)
 
     tags_cp = subprocess.run(
-        ["git", "tag", "--list", "--sort=v:refname"], capture_output=True,
+        ["git", "tag", "--list", "--sort=v:refname"],
+        capture_output=True,
         text=True)
     tags: str = tags_cp.stdout
     tags = tags.split("\n")
@@ -34,9 +34,7 @@ def get_tags(repo_root: str) -> list[str]:
 
 os.chdir(repo_path)
 
-update_swiftlint()
-
-swiftlint_tags = get_tags(swiftlint_path)
+swiftlint_tags = get_swiftlint_tags()
 own_latest_tag = get_tags(repo_path)[-1]
 
 if swiftlint_tags[-1] == own_latest_tag:
