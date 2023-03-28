@@ -135,6 +135,7 @@ opt_in_rules:
 
 
 disabled_rules:
+  # - blanket_disable_command
   # - block_based_kvo
   # - class_delegate_protocol
   # - closing_brace
@@ -149,6 +150,7 @@ disabled_rules:
   # - cyclomatic_complexity
   # - deployment_target
   # - discouraged_direct_init
+  # - duplicate_conditions
   # - duplicate_enum_cases
   # - duplicate_imports
   # - duplicated_key_in_dictionary_literal
@@ -166,6 +168,7 @@ disabled_rules:
   # - identifier_name
   # - implicit_getter
   # - inclusive_language
+  # - invalid_swiftlint_command
   # - is_disjoint
   # - large_tuple
   # - leading_whitespace
