@@ -16,7 +16,7 @@ def get_swiftlint_tags() -> list[str]:
     tags = tags[:-1]
     tags.reverse()
 
-    return tags[:-1]
+    return tags
 
 def get_tags(repo_root: str) -> list[str]:
     current_dir = os.getcwd()
