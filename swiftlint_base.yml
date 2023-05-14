@@ -122,6 +122,7 @@ opt_in_rules:
   - type_contents_order
   - typesafe_array_init
   - unavailable_function
+  - unhandled_throwing_task
   - unneeded_parentheses_in_closure_argument
   - unowned_variable_capture
   - untyped_error_in_catch
@@ -218,7 +219,6 @@ disabled_rules:
   # - type_body_length
   # - type_name
   # - unavailable_condition
-  # - unhandled_throwing_task
   # - unneeded_break_in_switch
   # - unused_closure_parameter
   # - unused_control_flow_label
