@@ -44,6 +44,7 @@ opt_in_rules:
   - file_name
   - file_name_no_space
   - file_types_order
+  - final_test_case
   - first_where
   - flatmap_over_map_reduce
   - force_unwrapping
@@ -79,6 +80,7 @@ opt_in_rules:
   - nslocalizedstring_require_bundle
   - number_separator
   - object_literal
+  - one_declaration_per_file
   - operator_usage_whitespace
   - optional_enum_case_matching
   - overridden_super_call
@@ -108,6 +110,7 @@ opt_in_rules:
   - required_enum_case
   - return_value_from_void_function
   - self_binding
+  - shorthand_argument
   - shorthand_optional_binding
   - single_test_class
   - sorted_enum_cases
@@ -190,6 +193,7 @@ disabled_rules:
   # - nesting
   # - no_fallthrough_only
   # - no_space_in_method_call
+  # - non_optional_string_data_conversion
   # - notification_center_detachment
   # - ns_number_init_as_function_reference
   # - nsobject_prefer_isequal
@@ -210,6 +214,7 @@ disabled_rules:
   # - self_in_property_initialization
   # - shorthand_operator
   # - statement_position
+  # - static_over_final_class
   # - superfluous_disable_command
   # - switch_case_alignment
   # - syntactic_sugar
