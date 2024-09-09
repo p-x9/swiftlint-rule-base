@@ -72,6 +72,7 @@ opt_in_rules:
   - multiline_parameters
   - multiline_parameters_brackets
   - nimble_operator
+  - no_empty_block
   - no_extension_access_modifier
   - no_grouping_extension
   - no_magic_numbers
@@ -87,6 +88,7 @@ opt_in_rules:
   - override_in_extension
   - pattern_matching_keywords
   - period_spacing
+  - prefer_key_path
   - prefer_nimble
   - prefer_self_in_static_references
   - prefer_self_type_over_type_of_self
@@ -134,6 +136,7 @@ opt_in_rules:
   - unused_capture_list
   - unused_declaration
   - unused_import
+  - unused_parameter
   - vertical_parameter_alignment_on_call
   - vertical_whitespace_between_cases
   - vertical_whitespace_closing_braces
@@ -154,6 +157,7 @@ disabled_rules:
   # - comment_spacing
   # - compiler_protocol_init
   # - computed_accessors_order
+  # - contrasted_opening_brace
   # - control_statement
   # - custom_rules
   # - cyclomatic_complexity
