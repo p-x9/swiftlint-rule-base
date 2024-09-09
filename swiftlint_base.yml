@@ -2,7 +2,6 @@ opt_in_rules:
   - accessibility_label_for_image
   - accessibility_trait_for_button
   - anonymous_argument_in_multiline_closure
-  - anyobject_protocol
   - array_init
   - attributes
   - balanced_xctest_lifecycle
@@ -148,6 +147,7 @@ opt_in_rules:
 
 
 disabled_rules:
+  # - attribute_name_spacing
   # - blanket_disable_command
   # - block_based_kvo
   # - class_delegate_protocol
@@ -203,7 +203,9 @@ disabled_rules:
   # - nsobject_prefer_isequal
   # - opening_brace
   # - operator_whitespace
+  # - optional_data_string_conversion
   # - orphaned_doc_comment
+  # - prefer_type_checking
   # - private_over_fileprivate
   # - private_unit_test
   # - protocol_property_accessors_order
