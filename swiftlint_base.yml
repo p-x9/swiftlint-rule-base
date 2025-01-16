@@ -3,6 +3,7 @@ opt_in_rules:
   - accessibility_trait_for_button
   - anonymous_argument_in_multiline_closure
   - array_init
+  - async_without_await
   - attributes
   - balanced_xctest_lifecycle
   - capture_variable
@@ -54,7 +55,6 @@ opt_in_rules:
   - implicit_return
   - implicitly_unwrapped_optional
   - indentation_width
-  - inert_defer
   - joined_default_parameter
   - last_where
   - legacy_multiple
@@ -133,7 +133,6 @@ opt_in_rules:
   - unneeded_parentheses_in_closure_argument
   - unowned_variable_capture
   - untyped_error_in_catch
-  - unused_capture_list
   - unused_declaration
   - unused_import
   - unused_parameter
@@ -213,6 +212,7 @@ disabled_rules:
   # - redundant_discardable_let
   # - redundant_objc_attribute
   # - redundant_optional_initialization
+  # - redundant_sendable
   # - redundant_set_access_control
   # - redundant_string_enum_value
   # - redundant_void_return
