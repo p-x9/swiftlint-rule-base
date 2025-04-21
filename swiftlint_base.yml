@@ -82,7 +82,6 @@ opt_in_rules:
   - number_separator
   - object_literal
   - one_declaration_per_file
-  - opaque_over_existential
   - operator_usage_whitespace
   - optional_enum_case_matching
   - overridden_super_call
