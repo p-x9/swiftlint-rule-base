@@ -3,7 +3,7 @@
 # set -Ceu
 
 TAG=$1
-FILENAME="swiftlint_linux"
+FILENAME="swiftlint_linux_amd64"
 
 REPO_ROOT_DIR=$(
     cd $(dirname $0)/..
