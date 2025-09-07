@@ -176,6 +176,7 @@ disabled_rules:
   # - force_cast
   # - force_try
   # - function_body_length
+  # - function_name_whitespace
   # - function_parameter_count
   # - generic_type_name
   # - identifier_name
@@ -203,7 +204,6 @@ disabled_rules:
   # - ns_number_init_as_function_reference
   # - nsobject_prefer_isequal
   # - opening_brace
-  # - operator_whitespace
   # - optional_data_string_conversion
   # - orphaned_doc_comment
   # - prefer_type_checking
