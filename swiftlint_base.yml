@@ -88,6 +88,7 @@ opt_in_rules:
   - override_in_extension
   - pattern_matching_keywords
   - period_spacing
+  - prefer_asset_symbols
   - prefer_condition_list
   - prefer_key_path
   - prefer_nimble
