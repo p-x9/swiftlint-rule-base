@@ -54,6 +54,7 @@ opt_in_rules:
   - identical_operands
   - implicit_return
   - implicitly_unwrapped_optional
+  - incompatible_concurrency_annotation
   - indentation_width
   - joined_default_parameter
   - last_where
