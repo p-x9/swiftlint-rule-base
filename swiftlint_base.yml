@@ -22,6 +22,7 @@ opt_in_rules:
   - direct_return
   - discarded_notification_center_observer
   - discouraged_assert
+  - discouraged_default_parameter
   - discouraged_none_name
   - discouraged_object_literal
   - discouraged_optional_boolean
@@ -60,6 +61,7 @@ opt_in_rules:
   - last_where
   - legacy_multiple
   - legacy_objc_type
+  - legacy_uigraphics_function
   - let_var_whitespace
   - literal_expression_end_indentation
   - local_doc_comment
@@ -109,6 +111,7 @@ opt_in_rules:
   - quick_discouraged_pending_test
   - raw_value_for_camel_cased_codable_enum
   - reduce_into
+  - redundant_final
   - redundant_nil_coalescing
   - redundant_self
   - redundant_type_annotation
@@ -142,6 +145,7 @@ opt_in_rules:
   - unused_declaration
   - unused_import
   - unused_parameter
+  - variable_shadowing
   - vertical_parameter_alignment_on_call
   - vertical_whitespace_between_cases
   - vertical_whitespace_closing_braces
@@ -189,6 +193,7 @@ disabled_rules:
   # - implicit_optional_initialization
   # - inclusive_language
   # - invalid_swiftlint_command
+  # - invisible_character
   # - is_disjoint
   # - large_tuple
   # - leading_whitespace
